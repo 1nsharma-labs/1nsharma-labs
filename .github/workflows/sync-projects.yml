@@ -24,7 +24,7 @@ jobs:
           node-version: 22
       - name: Sync public repository metadata
         env:
-          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }}
         run: node scripts/sync-projects.mjs
       - name: Commit registry changes
         run: |
