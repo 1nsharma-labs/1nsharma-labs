@@ -19,14 +19,14 @@ for (const [scope, endpoint] of endpoints) {
     const response = await fetch(url, { headers });
     if (!response.ok) {
       if (response.status === 404 && scope === "organization") {
-        console.warn("Organization endpoint unavailable; preserving curated registry.");
+        console.warn("Organization endpoint unavailable; continuing with public repositories already discovered.");
         break;
       }
       throw new Error("GitHub API " + response.status + " for " + scope + " repository discovery");
     }
     const repos = await response.json();
     for (const repo of repos) {
-      if (repo.private || repo.visibility !== "public" || repo.fork) continue;
+      if (repo.private !== false || repo.visibility !== "public" || repo.fork) continue;
       const fullName = repo.full_name;
       const curatedItem = featured.get(fullName.toLowerCase());
       discovered.push({
@@ -50,9 +50,6 @@ for (const [scope, endpoint] of endpoints) {
   }
 }
 const merged = new Map(discovered.map((item) => [item.fullName.toLowerCase(), item]));
-for (const item of curated.projects) {
-  if (!merged.has(item.fullName.toLowerCase())) merged.set(item.fullName.toLowerCase(), item);
-}
 const output = {
   schemaVersion: 1,
   generatedAt: new Date().toISOString(),
