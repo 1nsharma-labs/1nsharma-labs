@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10131f">
+  <meta name="description" content="Amit Sharma — Founder and Product Engineer building AI-native business systems, open-source software, and experimental technology. Explore the 1nsharma-labs engineering universe.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Amit Sharma — The Engineering Universe">
+  <meta property="og:description" content="Explore AI systems, engineering projects, research labs, and open-source work.">
+  <meta property="og:url" content="https://1nsharma-labs.github.io/">
+  <title>Amit Sharma — The Engineering Universe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#world">Skip to the world</a>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="AEMY Engineering Universe home"><span class="brand-mark">A</span><span>AEMY<span class="brand-muted"> / LABS</span></span></a>
+    <nav aria-label="Main navigation">
+      <a href="#world">Explore</a><a href="#projects">Projects</a><a href="#about">About</a>
+    </nav>
+    <a class="top-cta" href="https://github.com/1nsharma-labs" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> INDEPENDENT ENGINEERING UNIVERSE <span class="eyebrow-line"></span> EST. 2026</div>
+        <h1 id="hero-title">Build worlds.<br><span>Ship systems.</span></h1>
+        <p class="hero-lede">I'm Amit Sharma — a founder and product engineer building AI-native business systems, useful software, and experimental technology.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#world">Enter the world <span>↓</span></a><a class="button button-quiet" href="https://github.com/1nsharma" target="_blank" rel="noreferrer">View GitHub ↗</a></div>
+        <div class="hero-meta"><span>01 / EXPLORE</span><span>AI · SOFTWARE · RESEARCH</span></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract low-poly floating islands illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="planet planet-back"></div><div class="island island-top"><i></i><b></b><span></span></div>
+        <div class="island island-main"><i></i><b></b><span></span><em></em></div>
+        <div class="island island-small"><i></i><b></b></div>
+        <div class="pixel pixel-one"></div><div class="pixel pixel-two"></div><div class="pixel pixel-three"></div>
+        <div class="art-label label-top">SYSTEMS ONLINE <span>●</span></div><div class="art-label label-bottom">KANPUR, IN <span>26.4° N</span></div>
+      </div>
+    </section>
+
+    <section class="world-section" id="world">
+      <div class="section-heading">
+        <div><div class="eyebrow">THE PLAYABLE MAP / 001</div><h2>Choose your <span>destination.</span></h2></div>
+        <p>Explore the universe. Select an island or use your keyboard to move between zones.</p>
+      </div>
+      <div class="world-shell">
+        <div class="world-toolbar"><span><i class="live-dot"></i> WORLD INSTANCE: AEMY-01</span><span class="controls-hint">MOVE <kbd>←</kbd><kbd>→</kbd> OR <kbd>A</kbd><kbd>D</kbd> <span class="hint-divider">·</span> SELECT <kbd>ENTER</kbd></span></div>
+        <div class="world-map" role="group" aria-label="Interactive world destinations">
+          <div class="world-sky"></div><div class="cloud cloud-a"></div><div class="cloud cloud-b"></div>
+          <div class="world-sun"></div>
+          <button class="zone zone-ai active" data-zone="ai" aria-pressed="true"><span class="zone-icon">✳</span><span class="zone-name">AI SYSTEMS</span><span class="zone-sub">01 / BUILD</span><span class="zone-island"></span></button>
+          <button class="zone zone-labs" data-zone="labs" aria-pressed="false"><span class="zone-icon">⌘</span><span class="zone-name">ENGINEERING LABS</span><span class="zone-sub">02 / EXPERIMENT</span><span class="zone-island"></span></button>
+          <button class="zone zone-products" data-zone="products" aria-pressed="false"><span class="zone-icon">◇</span><span class="zone-name">PRODUCT WORLD</span><span class="zone-sub">03 / SHIP</span><span class="zone-island"></span></button>
+          <button class="zone zone-research" data-zone="research" aria-pressed="false"><span class="zone-icon">◎</span><span class="zone-name">RESEARCH OUTPOST</span><span class="zone-sub">04 / DISCOVER</span><span class="zone-island"></span></button>
+          <div class="world-ground"></div><div class="player" aria-hidden="true"><span class="player-shadow"></span><span class="player-body"><i></i><b></b></span><span class="player-tag">YOU</span></div>
+          <div class="world-coordinate">MAP 01 <span>↗</span> OPEN WORLD</div>
+        </div>
+        <div class="zone-detail" aria-live="polite">
+          <div class="zone-detail-index" id="zone-index">01</div><div class="zone-detail-copy"><div class="eyebrow" id="zone-kicker">BUILD / AI SYSTEMS</div><h3 id="zone-title">Intelligence with boundaries.</h3><p id="zone-description">Designing AI-native workflows where automation stays useful, observable, and accountable.</p></div><a class="zone-link" id="zone-link" href="#projects">Explore projects <span>↗</span></a>
+        </div>
+      </div>
+      <p class="map-note">This is an interactive 2.5D web world — use the island portals to explore. Keyboard controls are supported; reduced-motion preferences are respected.</p>
+    </section>
+
+    <section class="projects-section" id="projects">
+      <div class="section-heading">
+        <div><div class="eyebrow">SELECTED WORK / 002</div><h2>Things being <span>built.</span></h2></div>
+        <p>Projects and experiments, presented with their actual public repository links. Status and metrics are not inferred.</p>
+      </div>
+      <div class="project-filters" role="group" aria-label="Filter projects">
+        <button class="filter active" data-filter="all" aria-pressed="true">All work</button><button class="filter" data-filter="product" aria-pressed="false">Products</button><button class="filter" data-filter="research" aria-pressed="false">Research</button><button class="filter" data-filter="engineering" aria-pressed="false">Engineering</button>
+      </div>
+      <div class="project-grid" id="project-grid">
+        <article class="project-card featured" data-category="product"><div class="card-top"><span>FLAGSHIP / 001</span><span class="card-symbol">✳</span></div><h3>DukaanMitra</h3><p>WhatsApp-first business operating system for Indian small retailers. Exploring event-driven retail workflows and business automation.</p><div class="tag-row"><span>AI SYSTEMS</span><span>RETAIL</span><span>SAAS</span></div><a href="https://github.com/1nsharma/DukaanMitra" target="_blank" rel="noreferrer">Explore repository <b>↗</b></a></article>
+        <article class="project-card" data-category="engineering"><div class="card-top"><span>ENGINEERING / 002</span><span class="card-symbol">◈</span></div><h3>SolarHub</h3><p>Solar marketplace and service-network platform with web admin, mobile, backend, shared packages, and automated tests.</p><div class="tag-row"><span>PLATFORM</span><span>MOBILE</span><span>BACKEND</span></div><a href="https://github.com/1nsharma/solar-hub" target="_blank" rel="noreferrer">Explore repository <b>↗</b></a></article>
+        <article class="project-card" data-category="product"><div class="card-top"><span>PRODUCT / 003</span><span class="card-symbol">⌁</span></div><h3>PetJanu</h3><p>Pet identity and safety platform exploring QR/NFC identity, lost-pet workflows, AI assistance, and privacy-aware contact.</p><div class="tag-row"><span>IDENTITY</span><span>AI</span><span>SAFETY</span></div><a href="https://github.com/1nsharma/Petsjanu.com" target="_blank" rel="noreferrer">Explore repository <b>↗</b></a></article>
+        <article class="project-card" data-category="product"><div class="card-top"><span>PRODUCT / 004</span><span class="card-symbol">⌗</span></div><h3>Qrie / AI-QR</h3><p>AI-assisted review workflow for local businesses: QR entry, private feedback, review drafting, and Google review handoff.</p><div class="tag-row"><span>LOCAL BUSINESS</span><span>WORKFLOW</span></div><a href="https://github.com/1nsharma/AI-QR" target="_blank" rel="noreferrer">Explore repository <b>↗</b></a></article>
+        <article class="project-card" data-category="research"><div class="card-top"><span>RESEARCH / 005</span><span class="card-symbol">⌬</span></div><h3>Sentinel Protocol</h3><p>Experimental research prototype exploring digital provenance, media integrity, entropy-based signals, and cryptographic signing.</p><div class="tag-row"><span>PROVENANCE</span><span>CRYPTOGRAPHY</span></div><a href="https://github.com/1nsharma/sentinel-protocol" target="_blank" rel="noreferrer">Explore repository <b>↗</b></a></article>
+        <article class="project-card" data-category="engineering"><div class="card-top"><span>EXPERIMENT / 006</span><span class="card-symbol">✧</span></div><h3>Mowglai</h3><p>Interactive frontend and 3D experience exploring modern web graphics, animation, and performance techniques.</p><div class="tag-row"><span>THREE.JS</span><span>GSAP</span><span>WEB</span></div><a href="https://github.com/1nsharma/mowglai" target="_blank" rel="noreferrer">Explore repository <b>↗</b></a></article>
+      </div>
+      <div class="projects-foot"><span>FEATURED PROJECTS FROM THE FOUNDER PROFILE</span><a href="https://github.com/1nsharma?tab=repositories" target="_blank" rel="noreferrer">Browse public repositories ↗</a></div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-stamp">AEMY<br><span>LABS</span></div>
+      <div class="about-copy"><div class="eyebrow">THE BUILDER / 003</div><h2>Product before<br><span>architecture theatre.</span></h2><p>I'm Amit Sharma, a founder and product engineer focused on turning operational workflows into usable software. I work across AI, automation, SaaS, and multi-tenant systems.</p><div class="principles"><div><b>01</b><span>Deterministic systems where correctness matters.</span></div><div><b>02</b><span>AI with explicit boundaries, evidence, and failure handling.</span></div><div><b>03</b><span>Security and multi-tenancy considered from the beginning.</span></div><div><b>04</b><span>Tests and operational evidence over unsupported claims.</span></div></div></div>
+    </section>
+
+    <section class="connect-section">
+      <div><div class="eyebrow">OPEN CHANNELS / 004</div><h2>Let's build what<br><span>comes next.</span></h2></div>
+      <div class="connect-links"><a href="https://github.com/1nsharma" target="_blank" rel="noreferrer"><span>GitHub</span><b>Code & repositories</b><i>↗</i></a><a href="https://github.com/1nsharma-labs" target="_blank" rel="noreferrer"><span>1nsharma-labs</span><b>Organization & open source</b><i>↗</i></a><a href="https://in.linkedin.com/in/amitsharmaakaaemydukaanmitra" target="_blank" rel="noreferrer"><span>LinkedIn</span><b>Professional network</b><i>↗</i></a><a href="https://dev.to/ameyinsisde" target="_blank" rel="noreferrer"><span>DEV Community</span><b>Writing & engineering notes</b><i>↗</i></a><a href="https://amitsharma.dev" target="_blank" rel="noreferrer"><span>Portfolio</span><b>Personal website</b><i>↗</i></a></div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#home"><span class="brand-mark">A</span><span>AEMY<span class="brand-muted"> / LABS</span></span></a><span>BUILT FOR CURIOSITY. ENGINEERED WITH INTENT.</span><a href="#home">BACK TO TOP ↑</a></footer>
+</body>
+</html>
