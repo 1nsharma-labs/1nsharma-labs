@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": null,
+  "source": "Founder profile README, curated and verified",
+  "projects": [
+    {"name":"DukaanMitra","fullName":"1nsharma/DukaanMitra","url":"https://github.com/1nsharma/DukaanMitra","category":"product","featured":true,"description":"WhatsApp-first business operating system for Indian small retailers. Event-driven retail workflows and business automation."},
+    {"name":"SolarHub","fullName":"1nsharma/solar-hub","url":"https://github.com/1nsharma/solar-hub","category":"engineering","featured":true,"description":"Solar marketplace and service-network platform with web admin, mobile, backend, shared packages, and automated tests."},
+    {"name":"PetJanu","fullName":"1nsharma/Petsjanu.com","url":"https://github.com/1nsharma/Petsjanu.com","category":"product","featured":true,"description":"Pet identity and safety platform exploring QR/NFC identity, lost-pet workflows, AI assistance, and privacy-aware contact."},
+    {"name":"Qrie / AI-QR","fullName":"1nsharma/AI-QR","url":"https://github.com/1nsharma/AI-QR","category":"product","featured":true,"description":"AI-assisted review workflow for local businesses: QR entry, private feedback, review drafting, and Google review handoff."},
+    {"name":"Sentinel Protocol","fullName":"1nsharma/sentinel-protocol","url":"https://github.com/1nsharma/sentinel-protocol","category":"research","featured":true,"description":"Experimental research prototype exploring digital provenance, media integrity, entropy-based signals, and cryptographic signing."},
+    {"name":"Mowglai","fullName":"1nsharma/mowglai","url":"https://github.com/1nsharma/mowglai","category":"engineering","featured":true,"description":"Interactive frontend and 3D experience exploring modern web graphics, animation, and performance techniques."}
+  ],
+  "discovery": {
+    "personalPublicRepos": "https://api.github.com/users/1nsharma/repos?type=public&per_page=100&sort=updated",
+    "organizationPublicRepos": "https://api.github.com/orgs/1nsharma-labs/repos?type=public&per_page=100&sort=updated",
+    "note": "Only public repository metadata is eligible for discovery. Curated featured entries remain authoritative for descriptions and display order."
+  }
+}
