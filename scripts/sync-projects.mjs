@@ -3,7 +3,7 @@ import { readFile, writeFile } from "node:fs/promises";
 const headers = {
   Accept: "application/vnd.github+json",
   "X-GitHub-Api-Version": "2022-11-28",
-  ...(process.env.GITHUB_TOKEN ? { Authorization: \`Bearer ${process.env.GITHUB_TOKEN}\` } : {})
+  ...(process.env.GITHUB_TOKEN ? { Authorization: "Bearer " + process.env.GITHUB_TOKEN } : {})
 };
 const endpoints = [
   ["personal", "https://api.github.com/users/1nsharma/repos?type=public&per_page=100&sort=updated"],
@@ -22,7 +22,7 @@ for (const [scope, endpoint] of endpoints) {
         console.warn("Organization endpoint unavailable; preserving curated registry.");
         break;
       }
-      throw new Error(\`GitHub API ${response.status} for ${scope} repository discovery\`);
+      throw new Error("GitHub API " + response.status + " for " + scope + " repository discovery");
     }
     const repos = await response.json();
     for (const repo of repos) {
@@ -61,4 +61,4 @@ const output = {
   discovery: curated.discovery
 };
 await writeFile("projects.json", JSON.stringify(output, null, 2) + "\n");
-console.log(\`Wrote ${output.projects.length} public project entries.\`);
+console.log("Wrote " + output.projects.length + " public project entries.");
