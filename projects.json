@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T06:19:27.735Z",
+  "generatedAt": "2026-11-02T21:45:12.336Z",
   "source": "GitHub public repository API + curated founder profile metadata",
   "projects": [
     {
@@ -43,6 +43,19 @@
       "scope": "personal"
     },
     {
+      "name": "mowgali",
+      "fullName": "1nsharma/mowgali",
+      "url": "https://github.com/1nsharma/mowgali",
+      "category": "engineering",
+      "featured": false,
+      "description": "Public repository — description not provided.",
+      "language": "HTML",
+      "stars": 0,
+      "updatedAt": "2026-11-02T17:30:54Z",
+      "archived": false,
+      "scope": "personal"
+    },
+    {
       "name": "hiresaathi",
       "fullName": "1nsharma/hiresaathi",
       "url": "https://github.com/1nsharma/hiresaathi",
@@ -51,7 +64,20 @@
       "description": "HireSaathi - AI-powered hiring platform for Indian job market | Smart talent matching",
       "language": "TypeScript",
       "stars": 0,
-      "updatedAt": "2026-11-02T00:30:48Z",
+      "updatedAt": "2026-11-02T15:59:24Z",
+      "archived": false,
+      "scope": "personal"
+    },
+    {
+      "name": "Re-Cycle-ChainSYS",
+      "fullName": "1nsharma/Re-Cycle-ChainSYS",
+      "url": "https://github.com/1nsharma/Re-Cycle-ChainSYS",
+      "category": "engineering",
+      "featured": false,
+      "description": "Re-Cycle Chain - Blockchain-based recycling reward system for sustainable waste management",
+      "language": "TypeScript",
+      "stars": 0,
+      "updatedAt": "2026-11-02T15:53:54Z",
       "archived": false,
       "scope": "personal"
     },
@@ -104,19 +130,6 @@
       "language": null,
       "stars": 0,
       "updatedAt": "2026-11-02T00:29:39Z",
-      "archived": false,
-      "scope": "personal"
-    },
-    {
-      "name": "Re-Cycle-ChainSYS",
-      "fullName": "1nsharma/Re-Cycle-ChainSYS",
-      "url": "https://github.com/1nsharma/Re-Cycle-ChainSYS",
-      "category": "engineering",
-      "featured": false,
-      "description": "Re-Cycle Chain - Blockchain-based recycling reward system for sustainable waste management",
-      "language": "TypeScript",
-      "stars": 0,
-      "updatedAt": "2026-11-02T00:29:35Z",
       "archived": false,
       "scope": "personal"
     },
@@ -199,6 +212,19 @@
       "scope": "personal"
     },
     {
+      "name": "1nsharma-labs",
+      "fullName": "1nsharma-labs/1nsharma-labs",
+      "url": "https://github.com/1nsharma-labs/1nsharma-labs",
+      "category": "engineering",
+      "featured": false,
+      "description": "Public repository — description not provided.",
+      "language": "HTML",
+      "stars": 0,
+      "updatedAt": "2026-11-02T06:19:32Z",
+      "archived": false,
+      "scope": "organization"
+    },
+    {
       "name": "algoyoutube-os",
       "fullName": "1nsharma-labs/algoyoutube-os",
       "url": "https://github.com/1nsharma-labs/algoyoutube-os",
@@ -208,19 +234,6 @@
       "language": "JavaScript",
       "stars": 0,
       "updatedAt": "2026-11-02T00:27:39Z",
-      "archived": false,
-      "scope": "organization"
-    },
-    {
-      "name": "1nsharma-labs",
-      "fullName": "1nsharma-labs/1nsharma-labs",
-      "url": "https://github.com/1nsharma-labs/1nsharma-labs",
-      "category": "engineering",
-      "featured": false,
-      "description": "Public repository — description not provided.",
-      "language": "HTML",
-      "stars": 0,
-      "updatedAt": "2026-11-01T23:07:32Z",
       "archived": false,
       "scope": "organization"
     }
