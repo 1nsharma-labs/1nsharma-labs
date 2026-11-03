@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T21:45:12.336Z",
+  "generatedAt": "2026-11-03T06:55:44.542Z",
   "source": "GitHub public repository API + curated founder profile metadata",
   "projects": [
     {
@@ -39,6 +39,19 @@
       "language": "TypeScript",
       "stars": 0,
       "updatedAt": "2026-11-02T00:29:30Z",
+      "archived": false,
+      "scope": "personal"
+    },
+    {
+      "name": "Dukaanmitra.in",
+      "fullName": "1nsharma/Dukaanmitra.in",
+      "url": "https://github.com/1nsharma/Dukaanmitra.in",
+      "category": "engineering",
+      "featured": false,
+      "description": "Public repository — description not provided.",
+      "language": "TypeScript",
+      "stars": 1,
+      "updatedAt": "2026-11-03T06:16:29Z",
       "archived": false,
       "scope": "personal"
     },
@@ -220,7 +233,7 @@
       "description": "Public repository — description not provided.",
       "language": "HTML",
       "stars": 0,
-      "updatedAt": "2026-11-02T06:19:32Z",
+      "updatedAt": "2026-11-02T21:45:17Z",
       "archived": false,
       "scope": "organization"
     },
