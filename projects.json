@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T06:36:24.535Z",
+  "generatedAt": "2026-11-14T18:13:28.779Z",
   "source": "GitHub public repository API + curated founder profile metadata",
   "projects": [
     {
@@ -52,6 +52,19 @@
       "language": "TypeScript",
       "stars": 1,
       "updatedAt": "2026-11-03T06:16:29Z",
+      "archived": false,
+      "scope": "personal"
+    },
+    {
+      "name": "SLASH",
+      "fullName": "1nsharma/SLASH",
+      "url": "https://github.com/1nsharma/SLASH",
+      "category": "engineering",
+      "featured": false,
+      "description": "Turn URLs, Repositories & Digital Systems into One Unified Intelligence Graph.",
+      "language": "TypeScript",
+      "stars": 0,
+      "updatedAt": "2026-11-14T18:10:44Z",
       "archived": false,
       "scope": "personal"
     },
