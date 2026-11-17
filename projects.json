@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T08:02:08.819Z",
+  "generatedAt": "2026-11-17T21:00:46.355Z",
   "source": "GitHub public repository API + curated founder profile metadata",
   "projects": [
     {
@@ -262,6 +262,19 @@
       "updatedAt": "2025-09-17T00:24:13Z",
       "archived": false,
       "scope": "personal"
+    },
+    {
+      "name": "Universal-Engineering-OS",
+      "fullName": "1nsharma-labs/Universal-Engineering-OS",
+      "url": "https://github.com/1nsharma-labs/Universal-Engineering-OS",
+      "category": "engineering",
+      "featured": false,
+      "description": "UNIFORGE — The Universal Engineering OS. Modular polyglot workspace & open-source engineering ecosystem.",
+      "language": "Python",
+      "stars": 0,
+      "updatedAt": "2026-11-17T18:41:02Z",
+      "archived": false,
+      "scope": "organization"
     },
     {
       "name": "browser-os",
