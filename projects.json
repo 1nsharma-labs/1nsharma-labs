@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T07:19:18.439Z",
+  "generatedAt": "2026-11-21T19:23:56.366Z",
   "source": "GitHub public repository API + curated founder profile metadata",
   "projects": [
     {
@@ -67,6 +67,19 @@
       "updatedAt": "2026-11-15T18:07:55Z",
       "archived": false,
       "scope": "organization"
+    },
+    {
+      "name": "1nsharma.github.io",
+      "fullName": "1nsharma/1nsharma.github.io",
+      "url": "https://github.com/1nsharma/1nsharma.github.io",
+      "category": "engineering",
+      "featured": false,
+      "description": "Official Hub of Amit Sharma (Aemy / @1nsharma) — AI Systems Builder, Open-Source Developer Infrastructure (SLASH) & Bharat SMB Automation (DukaanMitra).",
+      "language": "HTML",
+      "stars": 0,
+      "updatedAt": "2026-11-21T19:06:02Z",
+      "archived": false,
+      "scope": "personal"
     },
     {
       "name": "SLASH",
