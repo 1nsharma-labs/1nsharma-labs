@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T08:44:03.460Z",
+  "generatedAt": "2026-11-27T21:25:04.128Z",
   "source": "GitHub public repository API + curated founder profile metadata",
   "projects": [
     {
@@ -95,19 +95,6 @@
       "scope": "organization"
     },
     {
-      "name": "Universal-Engineering-OS",
-      "fullName": "1nsharma-labs/Universal-Engineering-OS",
-      "url": "https://github.com/1nsharma-labs/Universal-Engineering-OS",
-      "category": "engineering",
-      "featured": false,
-      "description": "UNIFORGE — The Universal Engineering OS. Modular polyglot workspace & open-source engineering ecosystem.",
-      "language": "Python",
-      "stars": 1,
-      "updatedAt": "2026-11-22T21:37:39Z",
-      "archived": false,
-      "scope": "organization"
-    },
-    {
       "name": "droidarmor",
       "fullName": "1nsharma-labs/droidarmor",
       "url": "https://github.com/1nsharma-labs/droidarmor",
@@ -115,6 +102,19 @@
       "featured": false,
       "description": "The Open-Source Autonomous AI Mobile Agent & Fast ADB Automation CLI for Android (MCP Native)",
       "language": "JavaScript",
+      "stars": 1,
+      "updatedAt": "2026-11-22T21:37:39Z",
+      "archived": false,
+      "scope": "organization"
+    },
+    {
+      "name": "Universal-Engineering-OS",
+      "fullName": "1nsharma-labs/Universal-Engineering-OS",
+      "url": "https://github.com/1nsharma-labs/Universal-Engineering-OS",
+      "category": "engineering",
+      "featured": false,
+      "description": "UNIFORGE — The Universal Engineering OS. Modular polyglot workspace & open-source engineering ecosystem.",
+      "language": "Python",
       "stars": 1,
       "updatedAt": "2026-11-22T21:37:39Z",
       "archived": false,
@@ -134,12 +134,12 @@
       "scope": "organization"
     },
     {
-      "name": "compliguard",
-      "fullName": "1nsharma-labs/compliguard",
-      "url": "https://github.com/1nsharma-labs/compliguard",
+      "name": "driftarmor",
+      "fullName": "1nsharma-labs/driftarmor",
+      "url": "https://github.com/1nsharma-labs/driftarmor",
       "category": "engineering",
       "featured": false,
-      "description": "The Open-Source SOC 2 & ISO 27001 Continuous Compliance & Evidence Engine",
+      "description": "The Open-Source Terraform Drift Detector & Cloud Cost Firewall",
       "language": "JavaScript",
       "stars": 1,
       "updatedAt": "2026-11-22T21:37:37Z",
@@ -147,12 +147,12 @@
       "scope": "organization"
     },
     {
-      "name": "driftarmor",
-      "fullName": "1nsharma-labs/driftarmor",
-      "url": "https://github.com/1nsharma-labs/driftarmor",
+      "name": "compliguard",
+      "fullName": "1nsharma-labs/compliguard",
+      "url": "https://github.com/1nsharma-labs/compliguard",
       "category": "engineering",
       "featured": false,
-      "description": "The Open-Source Terraform Drift Detector & Cloud Cost Firewall",
+      "description": "The Open-Source SOC 2 & ISO 27001 Continuous Compliance & Evidence Engine",
       "language": "JavaScript",
       "stars": 1,
       "updatedAt": "2026-11-22T21:37:37Z",
@@ -251,12 +251,12 @@
       "scope": "organization"
     },
     {
-      "name": "hivemesh",
-      "fullName": "1nsharma-labs/hivemesh",
-      "url": "https://github.com/1nsharma-labs/hivemesh",
+      "name": "slashgraph",
+      "fullName": "1nsharma-labs/slashgraph",
+      "url": "https://github.com/1nsharma-labs/slashgraph",
       "category": "engineering",
       "featured": false,
-      "description": "Autonomous Multi-Agent Workspace Orchestration Mesh & Event Blackboard (Powered by Hive)",
+      "description": "Universal Codebase & System Architecture Intelligence Graph for AI Agents (Powered by Urlmind & SLASH)",
       "language": "JavaScript",
       "stars": 1,
       "updatedAt": "2026-11-22T21:37:29Z",
@@ -264,12 +264,12 @@
       "scope": "organization"
     },
     {
-      "name": "slashgraph",
-      "fullName": "1nsharma-labs/slashgraph",
-      "url": "https://github.com/1nsharma-labs/slashgraph",
+      "name": "hivemesh",
+      "fullName": "1nsharma-labs/hivemesh",
+      "url": "https://github.com/1nsharma-labs/hivemesh",
       "category": "engineering",
       "featured": false,
-      "description": "Universal Codebase & System Architecture Intelligence Graph for AI Agents (Powered by Urlmind & SLASH)",
+      "description": "Autonomous Multi-Agent Workspace Orchestration Mesh & Event Blackboard (Powered by Hive)",
       "language": "JavaScript",
       "stars": 1,
       "updatedAt": "2026-11-22T21:37:29Z",
